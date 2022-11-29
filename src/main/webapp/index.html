@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="css/bootstrap.css"></link>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <style>
+		body, html {
+		  height: 100%;
+		
+		  /* The image used */
+		  background-image: url("BG.jpg");
+		
+		  /* Full height */
+		  height: 100%; 
+		
+		  /* Center and scale the image nicely */
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+		.btnuser{
+		
+		margin-left:250px;
+		margin-top:500px;
+		
+		
+		}
+		.btnprod{
+		
+		margin-left:400px;
+		margin-top:-45px;
+		padding-left:50px;
+		
+		
+		}
+		.btnclub{
+		display:flex;
+		margin-left:500px;
+		margin-top:-45px;
+		padding-left:170px;
+		
+		
+		}
+	</style>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Example Code -->
+    
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand center text-primary" href="#" >Musical Instruments Rental </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent " aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Users
+              </a>
+              <ul class="dropdown-menu text-primary">
+                <li><a class="dropdown-item" href="home.html">Add Users</a></li>
+                <li><a class="dropdown-item" href="showdata">List Users</a></li>
+                <li><a class="dropdown-item" href="showdata">Edit Users</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="showdata">Delete Users</a></li>
+              </ul>
+            </li>
+       <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu text-primary">
+                <li><a class="dropdown-item" href="newproduct.html">Add Products</a></li>
+                <li><a class="dropdown-item" href="showproduct">List Products</a></li>
+                <li><a class="dropdown-item" href="showproduct">Rent Products</a></li>
+                <li><hr class="dropdown-divider"></li>
+             
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Club Collection
+              </a>
+              <ul class="dropdown-menu text-primary">
+                <li><a class="dropdown-item" href="clubcollection">List Of Collections</a></li>
+                <li><a class="dropdown-item" href="perday">Todays Collection</a></li>
+   
+              </ul>
+            </li>
+     
+          
+        </div>
+      </div>
+    </nav>
+    <div class="btnuser">
+    <td>
+    <a href="home.html"><button type="submit" class="btn btn-primary btn-lg">Users</button></a>
+    </td>
+    </div>
+    <div class="btnprod">
+    <td><a href="newproduct.html"><button type="submit" class="btn btn-primary btn-lg">Products</button></a></td>
+    </div>
+    <div class="btnclub">
+    <td><a href="clubcollection"><button type="submit" class="btn btn-primary btn-lg">Club</button></a></td>
+    </div>
+    
+    
+    <!-- End Example Code -->
+  </body>
+</html>

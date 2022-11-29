@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.css"></link>
+<style>
+body{
+background-color: black;
+}
+#frm {
+	width: 500px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+marquee {
+	margin-top: 10px;
+}
+.demo{
+margin-left:50px;
+}
+h1{
+ font-size:100px;
+ text-color:red;
+}
+.banner{
+margin-left:200px
+}
+
+.btn1{
+		
+		margin-left:400px;
+		margin-top:3px;
+		
+		
+		
+		}
+		
+		.btn2{
+		
+		margin-left:650px;
+		margin-top:-48px;
+		
+		
+		
+		
+		}
+				.btn3{
+		
+		margin-left:950px;
+		margin-top:-48px;
+		
+		
+		
+		
+		}
+		
+						.btn4{
+		
+		margin-left:650px;
+		margin-top:10px;
+		
+		
+		
+		
+		}
+
+</style>
+</head>
+<body class="container-fluid">
+	<marquee>
+		<h1 class="text-danger">MUSICAL INSTRUMENTS RENTAL SYSTEM</h1>
+	</marquee>
+	<h2 class="text-primary text-center" class="banner">ADDING THE NEW PRODUCTS</h2>
+		<div class="btn1">
+		<a href="showproduct"><button class="btn btn-primary btn-lg"> PRODUCTS LIST </button></a>
+	
+	</div>
+		<div class="btn2">
+		<a href="showproduct"><button class="btn btn-primary btn-lg"> EDITING PRODUCTS </button></a>
+	
+	</div>
+		<div class="btn3">
+		<a href="rentedlist"><button class="btn btn-primary btn-lg"> RENTED PRODUCTS STATUS </button></a>
+	
+	</div>
+	<form action="newproduct" method="post" class="form card" id="frm">
+		<h2 class="bg-danger text-white card-header">Registration Form</h2>
+		<table class="table table-hover">
+			<tr>
+				<td>Product Name</td>
+				<td><input type="text" name="product_name" required></td>
+			</tr>
+			<tr>
+				<td>Price</td>
+				<td><input type="text" name="product_price" required></td>
+			</tr>
+			<tr>
+				<td>Stock</td>
+				<td><input type="text" name="product_stock" required></td>
+			</tr>
+
+
+
+			<tr class="card-footer demo">
+				<td><button type="submit" class="btn btn-outline-success ">ADD</button></td>
+				<td><button type="reset" class="btn btn-outline-danger">CANCEL</button></td>
+			</tr>
+		</table>
+
+	</form>
+
+	
+	
+		<div class="btn4">
+		<a href="index.html"><button class="btn btn-primary btn-lg">Back To Home</button></a>
+	
+	</div>
+	
+	
+
+</body>
+</html>
+
+
+
+
+
