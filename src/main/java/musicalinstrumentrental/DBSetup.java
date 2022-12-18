@@ -16,8 +16,8 @@ public class DBSetup {
 		public static void createDB() {
 			try {
 				String url = "jdbc:mysql://127.0.0.1:3306/";
-				String user = "root";
-				String password = "#3BR19cs044";
+				String user = "user_name";
+				String password = "password";
 				Connection con = DriverManager.getConnection(url, user, password);
 				//Creating the Statement
 				Statement stmt = con.createStatement();
